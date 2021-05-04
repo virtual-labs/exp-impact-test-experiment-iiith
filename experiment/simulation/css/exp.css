@@ -1,0 +1,180 @@
+#exp_container {
+    position: relative;
+    height: 1000px;
+    width: 100%;
+}
+#con {
+  position: absolute;
+  width: 500px;
+  left: 150px;
+  top: 50px;
+  height:50px;
+}
+#chartContainer{
+  position: absolute;
+  height:500px;
+  width:500px;
+  left:950px;
+  top:125px;
+}
+#botbox{
+  position:absolute;
+  background-color: white ;
+  width: 570px;
+  height:50px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  top:650px;
+  left:80px;
+}
+#bt1 {
+  position: absolute;
+  left:110px;
+  top:5px;
+  background-color: #f1f1f1;
+  color: blue;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: right;
+}
+#bt2 {
+  position: absolute;
+  left:350px;
+  top:5px;
+  background-color: #f1f1f1;
+  color: blue;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: right;
+}
+#bt3 {
+  position: absolute;
+  left:390px;
+  top:5px;
+  background-color: #f1f1f1;
+  color: blue;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: right;
+}
+#im1 {
+  position: absolute;
+  width: 450px;
+  height: 60px;
+  left:50px;
+  top:0px;  
+}
+#im2{
+  position: absolute;
+  width: 20px;
+  height:20px;
+  left:115px;
+  top:34px;
+}
+#im3{
+  position: absolute;
+  width: 20px;
+  height:20px;
+  left:355px;
+  top:34px;
+}
+#im4{
+  position: absolute;
+  width: 20px;
+  height:20px;
+  left:395px;
+  top:34px;
+
+}
+#v1{
+  position:absolute;
+  height: 900px;
+  width: 10px;
+  left:50px;
+  top:30px;
+  background-color: #555;
+}
+#v3{
+  position:absolute;
+  height: 900px;
+  width: 10px;
+  left:850px;
+  top:30px;
+  background-color: #555;
+}
+#l1{
+  position:absolute;
+  height: 10px;
+  width: 800px;
+  left:50px;
+  top:30px;
+  background-color: #555;
+}
+#l2{
+  position:absolute;
+  height: 10px;
+  width: 800px;
+  left:50px;
+  top:645px;
+  background-color: #555;
+}
+#l3{
+  position:absolute;
+  height: 10px;
+  width: 800px;
+  left:50px;
+  top:920px;
+  background-color: #555;
+}
+#mp{
+  position: absolute;
+  left:100px;
+  top:812px;
+  font-size: 46px;
+}
+#initial{
+  position: absolute;
+  left:70px;
+  top:40px;
+  color:black;
+  background-color: white;
+}
+#final{
+  position: absolute;
+  left:450px;
+  top:40px;
+  color:black;
+  background-color: white;
+}
+#net{
+  position: absolute;
+  left:70px;
+  top:100px;
+  color:black;
+  background-color: white;
+}
+#pnet{
+  position: absolute;
+  left:185px;
+  top:87px;
+}
+#pinitial{
+  position: absolute;
+  left:185px;
+  top:27px;
+}
+#pfinal{
+  position: absolute;
+  left:560px;
+  top:27px;
+}
