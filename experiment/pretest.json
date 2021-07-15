@@ -1,0 +1,47 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "The impact tests can be used to _____________ ",
+            "answers": {
+                "a": "find out the absolute value of a material",
+                "b": "to determine the tensile strength of a material",
+                "c": "compare two specimens of similar composition and tensile strength",
+                "d": "to find the quantity of material"
+            },
+            "explanations": {
+                "c": "The impact test can be used to compare two specimens that have a similar composition and tensile strength. It has no absolute value. The test used to determine the tensile strength of a material is the tension test."
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the principal use of the impact tests?",
+            "answers": {
+                "a": "To determine ductility",
+                "b": "To determine if the material has been subjected to heat treatment",
+                "c": "To prevent material from corroding",
+                "d": "To obtain absolute values"
+            },
+            "explanations": {
+                "b": "The principal or main reason that the impact test is conducted upon a material is to ascertain if the material has undergone the required accurate heat treatment. The experiment gives no absolute value."
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "In an Izod test after the pendulum is released from a certain height, it hits the material at the __________ point of its path.",
+            "answers": {
+                "a": "lowest",
+                "b": "opposite",
+                "c": "highest",
+                "d": "sideways"
+            },
+            "explanations": {
+                "a": "In an Izod test, the material is first notched. Then it is clamped in heavy jaws, where the notch level is with the top and facing the pendulum. After the pendulum is released from a certain height, it hits the material at the lowest point of its path."
+            },
+            "correctAnswer": "a",
+            "difficulty": "intermediate"
+        }
+
+    ]
+}

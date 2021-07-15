@@ -1,0 +1,9 @@
+data = {
+    "colors": {
+        "circle": "black",
+        "stand": "#643D01",
+        "box": "blue",
+        "slab": "black",
+        "newbox": "red"
+    }
+}
