@@ -213,6 +213,8 @@ document.addEventListener('DOMContentLoaded', function() {
         if (firstAngle + angle2 > Math.PI / 2 && flag1 === 0) {
             flag1 = 1;
             tmHandle = window.setTimeout(slide, 1000 / FPS);
+        } else {
+            pauseButton.setAttribute("disabled", "true");
         }
     }
 
