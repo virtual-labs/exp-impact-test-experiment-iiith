@@ -1,7 +1,7 @@
 
  **Procedure**
 
-1. Measure the dimensions of a specimen.Also, measure the dimensions of the notch.
+1. Measure the dimensions of a specimen. Also, measure the dimensions of the notch.
 2. Raise the hammer and note down initial reading from the dial, which will be energy used to fracture the specimen.
 3. Place the specimen for test and see that it is placed center with respect to hammer. Check the position of notch.
 4. Release the hammer and note the final reading. Difference between the initial and final reading will give the actual energy required to fracture the Specimen.

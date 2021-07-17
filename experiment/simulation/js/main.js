@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function play() {
-        if (flag1 === 0) {
+        if (sliding === 0) {
             tmHandle = window.setTimeout(draw, 1000 / FPS);
         } else {
             tmHandle = window.setTimeout(slide, 10 / FPS);
@@ -130,8 +130,8 @@ document.addEventListener('DOMContentLoaded', function() {
         ];
         firstAngle = 0;
         secondAngle = 0;
-        flag2 = 1;
-        flag1 = 0;
+        freefall = 1;
+        sliding = 0;
     }
 
     let centerX = canvas.width / 2;
@@ -148,19 +148,19 @@ document.addEventListener('DOMContentLoaded', function() {
     let firstRadius = Math.sqrt(firstWidth * firstWidth + stringLength * stringLength);
     let secondRadius = Math.sqrt(secondWidth * secondWidth + (stringLength + height) ** 2);
     let secondAngle = 0;
-    let flag2 = 1;
-    let flag1 = 0;
+    let freefall = 1;
+    let sliding = 0;
     setAll();
     drawStatic();
 
-    function drawCircle(ctx, x, y, radius, flag2) {
+    function drawCircle(ctx, x, y, radius, freefall) {
         ctx.beginPath();
         ctx.fillStyle = data.colors.circle;
         ctx.strokeStyle = data.colors.circle;
         ctx.lineWidth = 6;
         ctx.arc(x, y, radius, 0, 2 * Math.PI);
         ctx.stroke();
-        if (flag2 === 0) {
+        if (freefall === 0) {
             ctx.fill();
         }
         ctx.restore();
@@ -171,7 +171,6 @@ document.addEventListener('DOMContentLoaded', function() {
         ctx.lineWidth = lineWidth;
         ctx.lineCap = "round";
         ctx.lineJoin = "round";
-
 
         drawObject(ctx, stand, data.colors.stand);
         drawObject(ctx, box, data.colors.box);
@@ -210,25 +209,23 @@ document.addEventListener('DOMContentLoaded', function() {
             tmHandle = window.setTimeout(draw, 100 / FPS);
         }
 
-        if (firstAngle + angle2 > Math.PI / 2 && flag1 === 0) {
-            flag1 = 1;
+        if (firstAngle + angle2 > Math.PI / 2 && sliding === 0) {
+            sliding = 1;
             tmHandle = window.setTimeout(slide, 1000 / FPS);
-        } else {
-            pauseButton.setAttribute("disabled", "true");
         }
     }
 
 
     function slide() {
         drawStatic();
-        if (secondSlab[2][0] >= boxX && flag2) {
+        if (secondSlab[2][0] >= boxX && freefall) {
             secondSlab[0][0]--;
             secondSlab[1][0]--;
             secondSlab[2][0]--;
             secondSlab[3][0]--;
             tmHandle = window.setTimeout(slide, 50 / FPS);
         } else if (secondSlab[2][1] <= boxY + boxHeight) {
-            flag2 = 0;
+            freefall = 0;
             secondAngle += 0.01;
             secondSlab[2][0] = boxX - boxHeight * Math.sin(secondAngle);
             secondSlab[2][1] = boxY + boxHeight - boxHeight * Math.cos(secondAngle);
@@ -243,6 +240,8 @@ document.addEventListener('DOMContentLoaded', function() {
             secondSlab[0][0] = secondSlab[3][0];
 
             tmHandle = window.setTimeout(slide, 50 / FPS);
+        } else {
+            pauseButton.setAttribute("disabled", "true");
         }
     }
 

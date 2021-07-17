@@ -9,7 +9,7 @@
                 "d": "extremely ductile"
             },
             "explanations": {
-                "d": "The impact test cannot be conducted in the required way on materials that are extremely ductile. This is due to the fact that these types of materials bend while breaking. The experiment can be conducted in room temperature."
+                "d": "The impact test cannot be conducted in the required way on materials that are extremely ductile. This is due to the fact that these types of materials bend while breaking. The experiment can be conducted at room temperature."
             },
             "correctAnswer": "d",
             "difficulty": "beginner"
@@ -22,7 +22,7 @@
                 "c": "highest",
                 "d": "sideways"
             },
-            "correctAnswer": "c",
+            "correctAnswer": "a",
             "difficulty": "intermediate"
         }
     ]
