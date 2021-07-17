@@ -27,21 +27,6 @@
             },
             "correctAnswer": "b",
             "difficulty": "intermediate"
-        },
-        {
-            "question": "In an Izod test after the pendulum is released from a certain height, it hits the material at the __________ point of its path.",
-            "answers": {
-                "a": "lowest",
-                "b": "opposite",
-                "c": "highest",
-                "d": "sideways"
-            },
-            "explanations": {
-                "a": "In an Izod test, the material is first notched. Then it is clamped in heavy jaws, where the notch level is with the top and facing the pendulum. After the pendulum is released from a certain height, it hits the material at the lowest point of its path."
-            },
-            "correctAnswer": "a",
-            "difficulty": "intermediate"
         }
-
     ]
 }
