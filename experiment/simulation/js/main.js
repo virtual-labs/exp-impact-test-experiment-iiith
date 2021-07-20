@@ -3,13 +3,13 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     const restartButton = document.getElementById('restart');
-    restartButton.addEventListener('click', function() { restart(); });
+    restartButton.addEventListener('click', restart);
 
     const playButton = document.getElementById('play');
-    playButton.addEventListener('click', function() { play(); });
+    playButton.addEventListener('click', play);
 
     const pauseButton = document.getElementById('pause');
-    pauseButton.addEventListener('click', function() { pause(); });
+    pauseButton.addEventListener('click', pause);
 
     const slider = document.getElementById('speed');
     const output = document.getElementById('demo_speed');
@@ -155,8 +155,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function drawCircle(ctx, x, y, radius, freefall) {
         ctx.beginPath();
-        ctx.fillStyle = data.colors.circle;
-        ctx.strokeStyle = data.colors.circle;
+        ctx.fillStyle = data.colors.black;
+        ctx.strokeStyle = data.colors.black;
         ctx.lineWidth = 6;
         ctx.arc(x, y, radius, 0, 2 * Math.PI);
         ctx.stroke();
@@ -174,8 +174,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         drawObject(ctx, stand, data.colors.stand);
         drawObject(ctx, box, data.colors.box);
-        drawObject(ctx, firstSlab, data.colors.slab);
-        drawObject(ctx, secondSlab, data.colors.slab);
+        drawObject(ctx, firstSlab, data.colors.black);
+        drawObject(ctx, secondSlab, data.colors.black);
         drawCircle(ctx, centerX, centerY, 10, 1);
         ctx.moveTo(centerX, centerY);
         let boxex = centerX + stringLength * Math.cos(firstAngle);
