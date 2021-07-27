@@ -134,19 +134,19 @@ document.addEventListener('DOMContentLoaded', function() {
         sliding = 0;
     }
 
-    let centerX = canvas.width / 2;
-    let centerY = 200;
-    let stringLength = 150;
+    const centerX = canvas.width / 2;
+    const centerY = 200;
+    const stringLength = 150;
+    const firstWidth = 20;
+    const secondWidth = 40;
+    const height = 50;
+
+    const angle1 = Math.atan(firstWidth / stringLength);
+    const angle2 = Math.atan(secondWidth / (height + stringLength));
+
+    const firstRadius = Math.sqrt(firstWidth * firstWidth + stringLength * stringLength);
+    const secondRadius = Math.sqrt(secondWidth * secondWidth + (stringLength + height) ** 2);
     let firstAngle = 0;
-    let firstWidth = 20;
-    let secondWidth = 40;
-    let height = 50;
-
-    let angle1 = Math.atan(firstWidth / stringLength);
-    let angle2 = Math.atan(secondWidth / (height + stringLength));
-
-    let firstRadius = Math.sqrt(firstWidth * firstWidth + stringLength * stringLength);
-    let secondRadius = Math.sqrt(secondWidth * secondWidth + (stringLength + height) ** 2);
     let secondAngle = 0;
     let freefall = 1;
     let sliding = 0;
