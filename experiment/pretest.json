@@ -1,7 +1,7 @@
 {
     "version": 2.0,
     "questions": [{
-            "question": "The impact tests can be used to _____________ ",
+            "question": "1. The impact tests can be used to ____ .",
             "answers": {
                 "a": "find out the absolute value of a material",
                 "b": "to determine the tensile strength of a material",
@@ -15,7 +15,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "1. What is the principal use of the impact tests?",
+            "question": "2. What is the principal use of the impact tests?",
             "answers": {
                 "a": "To determine ductility",
                 "b": "To determine if the material has been subjected to heat treatment",
