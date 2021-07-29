@@ -146,10 +146,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const firstRadius = Math.sqrt(firstWidth * firstWidth + stringLength * stringLength);
     const secondRadius = Math.sqrt(secondWidth * secondWidth + (stringLength + height) ** 2);
-    let firstAngle = 0;
-    let secondAngle = 0;
-    let freefall = 1;
-    let sliding = 0;
+    let firstAngle;
+    let secondAngle;
+    let freefall;
+    let sliding;
     setAll();
     drawStatic();
 

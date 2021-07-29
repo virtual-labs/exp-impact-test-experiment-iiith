@@ -1,15 +1,17 @@
 {
     "version": 2.0,
     "questions": [{
-            "question": "1. The impact tests can be used to ____ .",
+            "question": "1. The impact test can be used to ____ .",
             "answers": {
-                "a": "find out the absolute value of a material",
-                "b": "to determine the tensile strength of a material",
-                "c": "compare two specimens of similar composition and tensile strength",
-                "d": "to find the quantity of material"
+                "a": "to compare the torsional strength of two specimens",
+                "b": "to compare the tensile strength of two specimens",
+                "c": "to compare the impact strength of two specimens",
+                "d": "None of the above"
             },
             "explanations": {
-                "c": "The impact test can be used to compare two specimens that have a similar composition and tensile strength. It has no absolute value. The test used to determine the tensile strength of a material is the tension test."
+                "a": "Torsional test is used to compare the torsional strength of two specimens",
+                "b": "Tensile test is used to compare the tensile strength of two specimens",
+                "c": "The impact test is used to compare the impact strength of two specimens."
             },
             "correctAnswer": "c",
             "difficulty": "beginner"
@@ -20,10 +22,10 @@
                 "a": "To determine ductility",
                 "b": "To determine if the material has been subjected to heat treatment",
                 "c": "To prevent material from corroding",
-                "d": "To obtain absolute values"
+                "d": "None of the above"
             },
             "explanations": {
-                "b": "The principal or main reason that the impact test is conducted upon a material is to ascertain if the material has undergone the required accurate heat treatment. The experiment gives no absolute value."
+                "b": "The principal or main reason that the impact test is conducted upon a material is to ascertain if the material has undergone the required accurate heat treatment."
             },
             "correctAnswer": "b",
             "difficulty": "intermediate"
