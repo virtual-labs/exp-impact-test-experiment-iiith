@@ -1,0 +1,29 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "1. On ____ materials, impact test cannot be conducted.",
+            "answers": {
+                "a": "steel",
+                "b": "solid ",
+                "c": "room temperature",
+                "d": "extremely ductile"
+            },
+            "explanations": {
+                "d": "The impact test cannot be conducted in the required way on materials that are extremely ductile. This is due to the fact that these types of materials bend while breaking."
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. In an Izod test after the pendulum is released from a certain height, it hits the material at the ____ point of its path.",
+            "answers": {
+                "a": "lowest",
+                "b": "opposite",
+                "c": "highest",
+                "d": "sideways"
+            },
+            "correctAnswer": "a",
+            "difficulty": "intermediate"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+data = {
+    "colors": {
+        "black": "#000000",
+        "stand": "#643D01",
+        "box": "blue",
+        "newbox": "red"
+    }
+}
