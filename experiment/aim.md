@@ -1,1 +1,5 @@
-### Aim of the experiment
+**Objective**
+
+To determine the Impact toughness (strain energy) through Izod test. 
+
+
