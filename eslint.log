@@ -1,0 +1,12 @@
+
+/home/runner/work/exp-impact-test-experiment-iiith/exp-impact-test-experiment-iiith/experiment/simulation/js/main.js
+  158:25  warning  'data' is not defined  no-undef
+  159:27  warning  'data' is not defined  no-undef
+  175:32  warning  'data' is not defined  no-undef
+  176:30  warning  'data' is not defined  no-undef
+  177:36  warning  'data' is not defined  no-undef
+  178:37  warning  'data' is not defined  no-undef
+  202:33  warning  'data' is not defined  no-undef
+
+✖ 7 problems (0 errors, 7 warnings)
+
